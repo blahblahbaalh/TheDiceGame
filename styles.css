@@ -1,0 +1,74 @@
+:root {
+    --peach: #F5FDB0;
+    --pinkpeach: #F7E6AD;
+    --lightteal: #BCFFB9;
+    --teal: #28FFBF;
+    --pink: rgb(228, 133, 133);
+    --brown: #ff9955ff;
+
+}
+
+body {
+    background-color: var(--peach);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* ============================================= */
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+/* ============================================== */
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: var(--teal);
+    text-shadow: 10px 10px var(--pink);
+    font-size: 10rem;
+    margin: 2rem auto;
+
+}
+h3 {
+    font-family: 'Lobster', cursive;
+    color: var(--teal);
+    text-shadow: 5px 5px var(--pink);
+    font-size: 5rem;
+
+}
+
+p {
+    font-family: 'Palette Mosaic', cursive;
+    color: var(--brown);
+    font-size: 2.5rem;
+    margin: 0 2rem;
+
+}
+
+
+/* =====================DICE======================== */
+
+img {
+    width: 10rem;
+    margin: 0 10px;
+
+}
+
+img:hover {
+    width: 12rem;
+    transform: rotate(45deg);
+}
